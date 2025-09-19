@@ -62,12 +62,8 @@ Unlike traditional systems that rely only on URL classification, our method firs
    - Scrape webpage HTML content.  
    - Use Mistral LLM via Ollama for phishing prediction.  
    - Extract heuristic signals: number of pop-ups, suspicious links, excessive ads, etc.  
-
-3. **Final Risk Score**
    - Weighted combination:  
-     \[
-     \text{Final Score} = 0.5 \times \text{LLM Score} + 0.5 \times \text{Heuristic Risk Score}
-     \]  
+     Final Score = 0.5 * LLM Score + 0.5 * Heuristic Risk Score
 
 ---
 
