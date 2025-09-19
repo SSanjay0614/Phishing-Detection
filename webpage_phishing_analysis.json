@@ -1,0 +1,297 @@
+[
+  {
+    "url": "https://github.com/SSanjay0614",
+    "is_phishing": false,
+    "confidence": 60.0,
+    "combined_risk_score": 0.2,
+    "domain_reputation": {
+      "domain": "github.com",
+      "tld": "com",
+      "reputation_score": 0.0,
+      "reputation_reason": [
+        "trusted_domain"
+      ]
+    },
+    "content_analysis": {
+      "total_risk_score": 1.0,
+      "risk_factors": {
+        "forms_present": 0.7,
+        "urgency_tactics": 0.2,
+        "popups": 0.5,
+        "hidden_elements": 0.4,
+        "excessive_ads": 0.06,
+        "suspicious_elements": 0.4
+      }
+    },
+    "llm_analysis": {
+      "phishing_likelihood": 30,
+      "content_red_flags": [
+        "multiple_forms",
+        "fake_error_messages"
+      ],
+      "confidence": 70,
+      "primary_tactics": [
+        "social engineering",
+        "suspicious form requests"
+      ],
+      "reasoning": "The webpage contains multiple forms which could potentially be used for data harvesting. The presence of 'custom_scope_query' and 'lang:python' in the input fields suggests that the user might be prompted to execute specific actions or reveal sensitive information. Additionally, the existence of 'fake_error_messages' indicates a possibility of social engineering tactics aimed at tricking users into providing their credentials or clicking on malicious links."
+    },
+    "webpage_features": {
+      "title": "SSanjay0614 (Sanjay S) \u00b7 GitHub",
+      "forms_count": 4,
+      "input_fields_sample": [
+        "text:query-builder-test:",
+        "hidden:authenticity_token:",
+        "checkbox:include_email:",
+        "hidden:authenticity_token:",
+        "hidden:custom_scope_id:",
+        "text:custom_scope_name:github-ruby",
+        "hidden::",
+        "text:custom_scope_query:(repo:mona/a or repo:mona/b) and lang:python",
+        "hidden:authenticity_token:",
+        "hidden:login:"
+      ],
+      "suspicious_keywords": [],
+      "social_engineering_signals": [],
+      "popup_indicators": 34,
+      "ads_count": 6,
+      "iframe_count": 0,
+      "hidden_elements": 11,
+      "urgency_indicators": 1,
+      "suspicious_elements": [
+        "multiple_forms:4",
+        "fake_error_messages"
+      ],
+      "javascript_suspicious": false,
+      "suspicious_scripts": []
+    },
+    "timestamp": "2025-09-17T22:07:47.604937"
+  },
+  {
+    "url": "https://www.youtube.com/",
+    "is_phishing": false,
+    "confidence": 60.0,
+    "combined_risk_score": 0.2,
+    "domain_reputation": {
+      "domain": "youtube.com",
+      "tld": "com",
+      "reputation_score": 0.0,
+      "reputation_reason": [
+        "trusted_domain"
+      ]
+    },
+    "content_analysis": {
+      "total_risk_score": 0.8800000000000001,
+      "risk_factors": {
+        "suspicious_javascript": 0.2,
+        "hidden_elements": 0.4,
+        "iframes": 0.1,
+        "excessive_ads": 0.18
+      }
+    },
+    "llm_analysis": {
+      "phishing_likelihood": 0,
+      "content_red_flags": [],
+      "confidence": 100,
+      "primary_tactics": [
+        "none"
+      ],
+      "reasoning": "The webpage content appears to be legitimate as it matches the official YouTube homepage. The title and meta description are consistent with the actual YouTube website. There are no forms or input fields that could be used for phishing attempts, no suspicious keywords or social engineering signals, and no urgency indicators. The technical elements show a single iframe which is common in websites that embed content from other sources. The 'location.href' script is not inherently malicious as it is a standard JavaScript function for redirecting the page. Overall, the analyzed webpage does not exhibit any phishing indicators."
+    },
+    "webpage_features": {
+      "title": "YouTube",
+      "forms_count": 0,
+      "input_fields_sample": [],
+      "suspicious_keywords": [],
+      "social_engineering_signals": [],
+      "popup_indicators": 0,
+      "ads_count": 8,
+      "iframe_count": 1,
+      "hidden_elements": 16,
+      "urgency_indicators": 0,
+      "suspicious_elements": [],
+      "javascript_suspicious": true,
+      "suspicious_scripts": [
+        "location.href"
+      ]
+    },
+    "timestamp": "2025-09-17T22:07:55.873277"
+  },
+  {
+    "url": "https://www.5movierulz.villas/",
+    "is_phishing": true,
+    "confidence": 19.999999999999996,
+    "combined_risk_score": 0.6,
+    "domain_reputation": {
+      "domain": "5movierulz.villas",
+      "tld": "villas",
+      "reputation_score": 0.5,
+      "reputation_reason": []
+    },
+    "content_analysis": {
+      "total_risk_score": 0.5,
+      "risk_factors": {
+        "forms_present": 0.35,
+        "suspicious_keywords": 0.15
+      }
+    },
+    "llm_analysis": {
+      "phishing_likelihood": 70,
+      "content_red_flags": [
+        "Unusual capitalization and repetition of keywords (Movierulz, watch, download)",
+        "Multiple links to different movie categories without clear context",
+        "Lack of official branding or logo",
+        "Use of suspicious domain extension (.villas)"
+      ],
+      "confidence": 80,
+      "primary_tactics": [
+        "Content manipulation tactics",
+        "Social engineering attempts"
+      ],
+      "reasoning": "The webpage's content is heavily focused on providing movie streaming and download services, which could be used to lure users into entering personal information. The repetition of keywords and lack of official branding are common phishing tactics. Additionally, the use of a suspicious domain extension raises concerns about the legitimacy of the website."
+    },
+    "webpage_features": {
+      "title": "Movierulz | Watch Bollywood and Hollywood Full Movies Online Free",
+      "forms_count": 1,
+      "input_fields_sample": [
+        "text:s:search...",
+        "submit::"
+      ],
+      "suspicious_keywords": [
+        "update"
+      ],
+      "social_engineering_signals": [],
+      "popup_indicators": 0,
+      "ads_count": 0,
+      "iframe_count": 0,
+      "hidden_elements": 0,
+      "urgency_indicators": 0,
+      "suspicious_elements": [],
+      "javascript_suspicious": false,
+      "suspicious_scripts": []
+    },
+    "timestamp": "2025-09-17T22:08:06.048057"
+  },
+  {
+    "url": "https://watchserieshd.bond/",
+    "is_phishing": true,
+    "confidence": 29.999999999999982,
+    "combined_risk_score": 0.6499999999999999,
+    "domain_reputation": {
+      "domain": "watchserieshd.bond",
+      "tld": "bond",
+      "reputation_score": 0.8,
+      "reputation_reason": [
+        "suspicious_tld"
+      ]
+    },
+    "content_analysis": {
+      "total_risk_score": 0.6,
+      "risk_factors": {
+        "suspicious_keywords": 0.15,
+        "suspicious_javascript": 0.2,
+        "popups": 0.25
+      }
+    },
+    "llm_analysis": {
+      "phishing_likelihood": 30,
+      "content_red_flags": [
+        "update",
+        "free"
+      ],
+      "confidence": 75,
+      "primary_tactics": [
+        "social engineering"
+      ],
+      "reasoning": "The website's title and meta description claim that it offers free streaming of TV shows, which is a common tactic used in phishing attempts. Additionally, the use of the word 'update' could potentially be used to lure users into clicking on suspicious links or downloads."
+    },
+    "webpage_features": {
+      "title": "WatchSeriesHD \u2013 Watch Series HD Online For Free",
+      "forms_count": 0,
+      "input_fields_sample": [],
+      "suspicious_keywords": [
+        "update"
+      ],
+      "social_engineering_signals": [],
+      "popup_indicators": 1,
+      "ads_count": 0,
+      "iframe_count": 0,
+      "hidden_elements": 0,
+      "urgency_indicators": 0,
+      "suspicious_elements": [],
+      "javascript_suspicious": true,
+      "suspicious_scripts": [
+        "fromcharcode"
+      ]
+    },
+    "timestamp": "2025-09-17T22:08:16.433925"
+  },
+  {
+    "url": "https://unblocked-games.s3.amazonaws.com/index.html",
+    "is_phishing": true,
+    "confidence": 30.000000000000004,
+    "combined_risk_score": 0.65,
+    "domain_reputation": {
+      "domain": "unblocked-games.s3.amazonaws.com",
+      "tld": "com",
+      "reputation_score": 0.5,
+      "reputation_reason": []
+    },
+    "content_analysis": {
+      "total_risk_score": 1.0,
+      "risk_factors": {
+        "forms_present": 0.35,
+        "suspicious_keywords": 0.6,
+        "urgency_tactics": 0.5,
+        "suspicious_javascript": 0.2,
+        "popups": 0.25,
+        "hidden_elements": 0.2,
+        "suspicious_elements": 0.2
+      }
+    },
+    "llm_analysis": {
+      "phishing_likelihood": 30,
+      "content_red_flags": [
+        "update",
+        "limited time",
+        "winner",
+        "prize"
+      ],
+      "confidence": 75,
+      "primary_tactics": [
+        "social engineering",
+        "urgency/pressure tactics"
+      ],
+      "reasoning": "The webpage title and meta description focus on gaming, which is a common tactic used in phishing to lure users. The presence of keywords such as 'update', 'limited time', 'winner', and 'prize' are often associated with scams or fraudulent activities. Additionally, the use of urgency indicators (3) in the content increases the likelihood of social engineering attempts. However, the absence of suspicious form requests and technical red flags like popups/modals, hidden elements, iframes, and certain scripts lowers the overall phishing likelihood."
+    },
+    "webpage_features": {
+      "title": "Unblocked Games FreezeNova",
+      "forms_count": 1,
+      "input_fields_sample": [
+        "search::search"
+      ],
+      "suspicious_keywords": [
+        "update",
+        "limited time",
+        "winner",
+        "prize"
+      ],
+      "social_engineering_signals": [],
+      "popup_indicators": 1,
+      "ads_count": 0,
+      "iframe_count": 0,
+      "hidden_elements": 7,
+      "urgency_indicators": 3,
+      "suspicious_elements": [
+        "countdown_timer"
+      ],
+      "javascript_suspicious": true,
+      "suspicious_scripts": [
+        "innerhtml",
+        "location.href",
+        "window.location"
+      ]
+    },
+    "timestamp": "2025-09-17T22:08:27.749757"
+  }
+]
